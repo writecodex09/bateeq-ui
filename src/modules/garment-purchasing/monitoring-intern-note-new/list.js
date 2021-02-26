@@ -185,8 +185,10 @@ export class List {
     return (keyword) => {
       var info = {
         keyword: keyword,
-        select: JSON.stringify({ "doNo": "DONo", "Id": "1", "supplierName": "SupplierName", "billNo": "BillNo", "paymentBill": "PaymentBill" }),
-        search: JSON.stringify(["DONo", "BillNo", "PaymentBill"]),
+        // select: JSON.stringify({ "doNo": "DONo", "Id": "1", "supplierName": "SupplierName", "billNo": "BillNo", "paymentBill": "PaymentBill" }),
+        // search: JSON.stringify(["DONo", "BillNo", "PaymentBill"]),
+        select: JSON.stringify({ "doNo": "DONo", "Id": "1", "supplierName": "SupplierName" }),
+        search: JSON.stringify(["DONo"]),
         order: { "DONo": "asc" }
       };
       console.log(info);
