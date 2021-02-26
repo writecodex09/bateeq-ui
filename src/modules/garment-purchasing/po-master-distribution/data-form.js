@@ -51,7 +51,7 @@ export class DataForm {
             var info = {
                 keyword: keyword,
                 filter: JSON.stringify({
-                    "BillNo != null": true,
+                    //"BillNo != null": true,
                     // "CustomsId > 0": true,
                     "Items.Any(Details.Any(PRNo != null && PRNo.StartsWith(\"PR\") && PRNo.EndsWith(\"M\")))": true,
                     "SupplierId": this.data.Supplier ? this.data.Supplier.Id : 0
