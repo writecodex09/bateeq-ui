@@ -29,7 +29,7 @@ export async function configure(aurelia) {
           'x-timezone-offset': offset
         }
       }
-      
+       
       //var auth = "https://bateeq-auth-api.azurewebsites.net/v1/";
       //var auth = "https://bateeq-auth-api-dev.azurewebsites.net/v1";
       // dipakai
@@ -72,7 +72,7 @@ export async function configure(aurelia) {
       var nmerchandiser = "http://localhost:63614/v1/";
       var nsales = "http://localhost:63614/v1/";
       //purchasingJob
-      var purchasingJob = "http://localhost:57157/v1/";
+      var purchasingJob = "http://localhost:51806/v1/";
 
 
       //Config API
