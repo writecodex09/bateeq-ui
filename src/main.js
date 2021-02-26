@@ -29,7 +29,7 @@ export async function configure(aurelia) {
           'x-timezone-offset': offset
         }
       }
-      
+       
       //var auth = "https://bateeq-auth-api.azurewebsites.net/v1/";
       //var auth = "https://bateeq-auth-api-dev.azurewebsites.net/v1";
       // dipakai
